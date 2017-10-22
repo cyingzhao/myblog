@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Hexo的小技巧总结]]></title>
+    <url>%2F2017%2F10%2F21%2Fblog_notes%2F</url>
+    <content type="text"><![CDATA[首页显示“阅读全文”在首页需要显示的内容后面加上 123首页需要显示内容&lt;!--more--&gt;首页隐藏的内容 首页标题居中由于next首页的文章标题不居中，看着很不舒服，需要把修改themes/next/source/css/_schemes/Mist/_posts-expanded.styl1.post-title, 修改为123.post-title&#123; text-align: center;&#125; 标签居中修改文件themes/next/source/css/_schemes/Mist/_posts-expanded.styl1234567.post-tags &#123; text-align: left; #left修改为center a &#123; padding: 1px 5px; background: $whitesmoke; border-bottom: none; &#125; 详情居中详情 即为 “发表于 | 分类于 ” 等 ，修改文件themes/next/source/css/_variables/Mist.styl1$site-meta-text-align = left; #left修改为center 修改next主题修改themes/next/_config.yml12345# Schemes#scheme: Muse#scheme: Mistscheme: Pisces#scheme: Gemini]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Next</tag>
+      </tags>
+  </entry>
+</search>
